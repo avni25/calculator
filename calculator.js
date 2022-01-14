@@ -12,6 +12,8 @@ app.get("/", (req, res)=>{
 
 });
 
+
+
 // what to do when press calculate button
 app.post("/cal1", function(req, res){
     var num1 = Number(req.body.num1);
